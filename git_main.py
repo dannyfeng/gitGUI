@@ -4,19 +4,9 @@
 """Git-GUI with mail function."""
 
 #---------------------------------------------------------------------------
-
-import os
-import sys
-import time
-import re
-import subprocess
 import wx
-import  wx.lib.editor    as  editor
-import  wx.lib.mixins.listctrl  as  listmix
-
 
 from gitGui import GitFrame
-
 
 #---------------------------------------------------------------------------
 
@@ -37,18 +27,14 @@ def main():
     app = App()
     app.MainLoop()
 
-if __name__ == '__main__': pass
-    #main()
-
-
+if __name__ == '__main__': #pass
+    main()
 
 
 #---------------------------------------------------------------------------
-if __name__ == '__main__':
-    app = wx.PySimpleApp()
-    frame = GitFrame(parent=None, id=-1)
-    frame.Show()
-    app.MainLoop()
-
-
+#if __name__ == '__main__':
+#    app = wx.PySimpleApp()
+#    frame = GitFrame(parent=None, id=-1)
+#    frame.Show()
+#    app.MainLoop()
 #---------------------------------------------------------------------------
